@@ -3,7 +3,6 @@ node_modules
 .env
 .env.prod
 .env.production
-package-lock.json
 
 # vercel
 .vercel
