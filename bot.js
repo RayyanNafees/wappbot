@@ -6,9 +6,7 @@ const client = new Client({
 	puppeteer: {
 		args: ["--no-sandbox", "--disable-setuid-sandbox"],
 	},
-	authStrategy: new LocalAuth({
-		dataPath: "session",
-	}),
+	authStrategy: new LocalAuth(),
 });
 
 // When the client is ready, run this code (only once)
